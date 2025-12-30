@@ -2,7 +2,7 @@
 
 A professional full-stack cryptocurrency sentiment analysis dashboard inspired by TradingView, featuring real-time data updates, advanced charting, and a modern dark theme UI.
 
-## 🚀 Features
+##  Features
 
 - **Real-time Sentiment Analysis** - Live sentiment tracking from Reddit crypto communities
 - **TradingView-Style Charts** - Professional candlestick charts using Lightweight Charts library
@@ -11,7 +11,7 @@ A professional full-stack cryptocurrency sentiment analysis dashboard inspired b
 - **Interactive Visualizations** - Pie charts, line charts, and data tables
 - **REST API** - Full-featured FastAPI backend with comprehensive endpoints
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 ┌─────────────────┐         ┌──────────────────┐         ┌──────────────┐
@@ -23,7 +23,7 @@ A professional full-stack cryptocurrency sentiment analysis dashboard inspired b
         └────── WebSocket ───────────┘
 ```
 
-## 📦 Tech Stack
+##  Tech Stack
 
 ### Backend
 - **FastAPI** - Modern Python web framework
@@ -99,7 +99,7 @@ The app will be available at `http://localhost:5173`
 
 - `WS /ws` - Real-time metrics updates (broadcasts every 5 seconds)
 
-## 🎨 Components
+##  Components
 
 ### Frontend Components
 
@@ -131,14 +131,14 @@ Run the scraper to collect real data:
 python3 oracle_backend.py --subs ethereum,bitcoin --limit 20 --sentiment --chain
 ```
 
-## 🎯 Usage
+##  Usage
 
 1. Start the backend API server (port 8000)
 2. Start the frontend dev server (port 5173)
 3. Open `http://localhost:5173` in your browser
 4. View real-time sentiment data and charts
 
-## 📊 Features Breakdown
+## Features Breakdown
 
 ### Metrics Dashboard
 - Average sentiment score
@@ -158,7 +158,7 @@ python3 oracle_backend.py --subs ethereum,bitcoin --limit 20 --sentiment --chain
 - Chain signal badges
 - Subreddit filtering
 
-## 🚀 Production Build
+##  Production Build
 
 Build the frontend for production:
 
@@ -169,11 +169,11 @@ npm run build
 
 The production files will be in `frontend/dist/`
 
-## 📝 License
+## License
 
 MIT License
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions welcome! Please open an issue or submit a pull request.
 
