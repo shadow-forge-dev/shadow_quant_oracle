@@ -1,0 +1,14 @@
+{
+  "name": "quant-oracle-dashboard",
+  "version": "1.0.0",
+  "description": "TradingView-style cryptocurrency sentiment analysis dashboard",
+  "scripts": {
+    "start": "bash ../start.sh",
+    "backend": "cd .. && uvicorn api_server:app --reload",
+    "frontend": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "author": "",
+  "license": "MIT"
+}
