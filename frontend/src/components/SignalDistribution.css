@@ -1,0 +1,12 @@
+.signal-distribution {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.signal-distribution h3 {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin: 0 0 16px 0;
+}

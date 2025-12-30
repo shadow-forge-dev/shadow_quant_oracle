@@ -1,0 +1,137 @@
+.post-feed {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 16px;
+    max-height: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.feed-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.feed-header h3 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin: 0;
+}
+
+.post-count {
+    font-size: 12px;
+    color: var(--text-secondary);
+    background: var(--bg-tertiary);
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+.feed-list {
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.post-item {
+    background: var(--bg-tertiary);
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    padding: 12px;
+    transition: all 0.2s;
+}
+
+.post-item:hover {
+    border-color: var(--accent-blue);
+    transform: translateX(4px);
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.post-subreddit {
+    font-size: 11px;
+    color: var(--accent-blue);
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.signal-badge {
+    font-size: 10px;
+    padding: 3px 8px;
+    border-radius: 3px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.signal-badge.green {
+    background: rgba(38, 166, 154, 0.2);
+    color: var(--accent-green);
+}
+
+.signal-badge.blue {
+    background: rgba(41, 98, 255, 0.2);
+    color: var(--accent-blue);
+}
+
+.signal-badge.red {
+    background: rgba(239, 83, 80, 0.2);
+    color: var(--accent-red);
+}
+
+.signal-badge.gray {
+    background: rgba(120, 123, 134, 0.2);
+    color: var(--text-secondary);
+}
+
+.post-title {
+    font-size: 14px;
+    color: var(--text-primary);
+    line-height: 1.4;
+    margin-bottom: 8px;
+}
+
+.post-footer {
+    display: flex;
+    gap: 16px;
+    font-size: 11px;
+    color: var(--text-secondary);
+}
+
+.post-score {
+    color: var(--accent-blue);
+    font-weight: 600;
+}
+
+.post-sentiment {
+    font-weight: 600;
+}
+
+.post-sentiment.positive {
+    color: var(--accent-green);
+}
+
+.post-sentiment.negative {
+    color: var(--accent-red);
+}
+
+.post-sentiment.neutral {
+    color: var(--text-secondary);
+}
+
+.post-time {
+    margin-left: auto;
+}
